@@ -19,7 +19,7 @@ public class StudentController {
 	@Autowired
 	private StudentServiceI studentServiceI;
 
-	@GetMapping("/loadform")
+	@GetMapping("/Loadform")
 	public String getform() {
 
 		return "welcome";
